@@ -214,4 +214,17 @@ User -> Route53 -> WAF + CloudFront
 
 ### 문제점
 
+- HTTPS 적용을 위한 TLS 인증서 관리 방법 미표현
+
+## v0.8
+
+![v0.8](./img/시도8.jpeg)
+
+### 개선 사항
+
+- AWS Certificate Manager(ACM) 추가
+- ACM → ALB 연결로 HTTPS 처리 흐름 명시
+
+### 문제점
+
 (고민 중)
